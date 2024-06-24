@@ -1,0 +1,76 @@
+{
+  "author": "David Piper <david.piper@mailfence.com>",
+  "bugs": {
+    "url": "https://github.com/dbpiper/timer/issues"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.123",
+    "lodash": "^4.17.11",
+    "moment": "^2.24.0"
+  },
+  "description": "Simple module to time your code JavaScript or TypeScript code, to see how long it took to run.",
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/plugin-proposal-class-properties": "^7.4.0",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-typescript": "^7.3.3",
+    "@babel/register": "^7.4.0",
+    "@commitlint/cli": "^7.5.2",
+    "@commitlint/config-conventional": "^7.5.0",
+    "@types/gulp": "^4.0.6",
+    "@types/jest": "^24.0.11",
+    "babel-eslint": "^10.0.1",
+    "commitlint": "^7.5.2",
+    "eslint": "^5.16.0",
+    "gulp": "^4.0.0",
+    "husky": "^1.3.1",
+    "jest": "^24.7.0",
+    "terminal-spawn": "^2.0.3",
+    "ts-jest": "^24.0.1",
+    "tslint": "^5.15.0",
+    "tslint-config-euclid": "^1.1.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.4.1",
+    "typescript-tslint-plugin": "^0.3.1"
+  },
+  "directories": {
+    "example": "example"
+  },
+  "files": [
+    "lib"
+  ],
+  "homepage": "https://github.com/dbpiper/timer#readme",
+  "husky": {
+    "hooks": {
+      "commit-msg": "npx commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "npm run verify",
+      "pre-push": "npm run verify"
+    }
+  },
+  "keywords": [
+    "timer",
+    "code",
+    "timing-code",
+    "performance",
+    "speed",
+    "measurement",
+    "time"
+  ],
+  "license": "MIT",
+  "main": "lib/timer.js",
+  "name": "@dbpiper/timer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbpiper/timer.git"
+  },
+  "scripts": {
+    "build": "npx gulp build",
+    "lint": "npx gulp lint",
+    "prepublishOnly": "npm run build",
+    "test": "npx gulp test",
+    "verify": "npx gulp verify",
+    "verifyCi": "npx gulp verifyCi"
+  },
+  "version": "1.0.0-beta.2"
+}
