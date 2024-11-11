@@ -9,10 +9,10 @@ Office.onReady((info) => {
 export async function run() {
   return Word.run(async (context) => {
 
-    const paragraph = context.document.body.insertParagraph("bhdgjurygfjuyrsgsjuf机设计和发动机客户建国后dhf", Word.InsertLocation.end);
-    const wjj = context.document.body.insertParagraph("jk搞fsdjhfgsgdddfhjkusxhfjjussdhhdgdhjdsjklhjkh发部署", Word.InsertLocation.end);
-    const wff = context.document.body.insertParagraph("cb书gftytytjghftyfkdfhguioyhujufhgkjhdffukghddtkug的覅u是乎都是v福冈大阪dghdhg", Word.InsertLocation.end);
-    const wkk = context.document.body.insertParagraph("sd看gutftyuitgf7kui庸国df", Word.InsertLocation.end);
+    const paragraph = context.document.body.insertParagraph("gsjuf机设计和发动机客户建国后dhf", Word.InsertLocation.end);
+    const wjj = context.document.body.insertParagraph("jk搞fsjkdehuiughierdjhfgsgdddfhjkusxhfjjussdhhdgdhjdsjklhjkh发部署", Word.InsertLocation.end);
+    const wff = context.document.body.insertParagraph("cb书gftytytdfhguioyhujufhgkjhdffukghdd大阪dghdhg", Word.InsertLocation.end);
+    const wkk = context.document.body.insertParagraph("sd看gutftyuitgf7kui庸国jfhgjkhfduighdfuighuihguisddf", Word.InsertLocation.end);
 
     paragraph.font.color = "purple";
     wjj.font.color = "pink";
