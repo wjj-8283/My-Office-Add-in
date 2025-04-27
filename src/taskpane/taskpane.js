@@ -15,7 +15,6 @@ export async function run() {
 
     paragraph.font.color = "purple";
     wjj.font.color = "pink";
-    wff.font.color = "red";
     wkk.font.color = "blue";
     await context.sync();
   });
