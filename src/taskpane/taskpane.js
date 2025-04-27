@@ -11,7 +11,7 @@ export async function run() {
 
     const paragraph = context.document.body.insertParagraph("gsjuf机设计和发国后dhf", Word.InsertLocation.end);
     const wjj = context.document.body.insertParagraph("jk搞fsi规划风格化风格化风格化jklhjkh发部署", Word.InsertLocation.end);
-    const wff = context.document.body.insertParagraph("cb书gfdhg", Word.InsertLocation.end);
+    const wff = context.document.body.insertParagraph("cb就开会开会就开会风格恢复书gfdhg", Word.InsertLocation.end);
     const wkk = context.document.body.insertParagraph("sd看gujfg是对uihguisddf", Word.InsertLocation.end);
 
     paragraph.font.color = "purple";
