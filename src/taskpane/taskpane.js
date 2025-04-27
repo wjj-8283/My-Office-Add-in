@@ -9,10 +9,10 @@ Office.onReady((info) => {
 export async function run() {
   return Word.run(async (context) => {
 
-    const paragraph = context.document.body.insertParagraph("gsjuf机设计和发动机客户建国后dhf", Word.InsertLocation.end);
-    const wjj = context.document.body.insertParagraph("jk搞fsjkdehuiughi规划风格化风格化风格化jklhjkh发部署", Word.InsertLocation.end);
-    const wff = context.document.body.insertParagraph("cb书gftyfygukfdu获得解放和大家开会hdhg", Word.InsertLocation.end);
-    const wkk = context.document.body.insertParagraph("sd看gutftshsjfg是对uihguisddf", Word.InsertLocation.end);
+    const paragraph = context.document.body.insertParagraph("gsjuf机设计和发国后dhf", Word.InsertLocation.end);
+    const wjj = context.document.body.insertParagraph("jk搞fsi规划风格化风格化风格化jklhjkh发部署", Word.InsertLocation.end);
+    const wff = context.document.body.insertParagraph("cb书gfdhg", Word.InsertLocation.end);
+    const wkk = context.document.body.insertParagraph("sd看gujfg是对uihguisddf", Word.InsertLocation.end);
 
     paragraph.font.color = "purple";
     wjj.font.color = "pink";
