@@ -48,7 +48,7 @@
     "office-addin-cli": "^2.0.3",
     "office-addin-debugging": "^6.1.1",
     "office-addin-dev-certs": "^2.0.3",
-    "office-addin-lint": "^3.0.6",
+    "office-addin-lint": "^3.0.9",
     "office-addin-manifest": "^2.1.2",
     "office-addin-prettier-config": "^2.0.4",
     "os-browserify": "^0.3.0",
